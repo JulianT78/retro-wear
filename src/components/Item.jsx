@@ -1,16 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { Card, Button } from 'react-bootstrap';
 
 const Item = ({ producto }) => {
     return (
-        <div className='producto'>
-            <img src={producto.imagen} alt="" />
-            <div>
-                <h4>{producto.nombre}</h4>
-                <p>Precio: ${producto.precio}</p>
-                <p>Tipo: ${producto.tipo}</p>
-                <a className='ver-mas' href={`/item/${producto.id}`}>Ver más</a>
-            </div>
-        </div>
+        <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={producto.imagen} />
+            <Card.Body>
+                <Card.Title>{producto.nombre}</Card.Title>
+                <Card.Text>
+                    Precio: ${producto.precio}<br />
+                    Tipo: {producto.tipo}
+                </Card.Text>
+                <Button variant="primary" href={`/item/${producto.id}`}>Ver más</Button>
+            </Card.Body>
+        </Card>
     )
 }
 
