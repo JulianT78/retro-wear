@@ -6,15 +6,22 @@ import NavBar from './components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemListContainer from './components/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <NavBar />
-      <ItemListContainer />
-      <ItemDetailContainer itemId={2} />
+      <BrowserRouter>
+        <NavBar />
+
+        <Routes>
+          <Route path="/" element={<ItemListContainer/>}></Route>
+          <Route path="/item" element={<ItemDetailContainer itemId={2} />}></Route>
+        </Routes>
+        
+      </BrowserRouter>
     </div>
   )
 }
