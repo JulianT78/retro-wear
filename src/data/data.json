@@ -2,7 +2,7 @@
     {
         "id": 1,
         "nombre": "Remera The North Face",
-        "tipo": "Remera",
+        "categoria": "Remera",
         "precio": 15,
         "imagen": "https://dcdn.mitiendanube.com/stores/003/015/445/products/5101-1a9129c56138004ea116905018484637-480-0.png",
         "descripcion": "Una remera cómoda y ligera de The North Face, ideal para actividades al aire libre."
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "nombre": "Jogger Levi's mostaza",
-        "tipo": "Pantalón",
+        "categoria": "Pantalón",
         "precio": 20,
         "imagen": "https://i.pinimg.com/736x/cf/3c/7a/cf3c7af384abbbe959d02517e7f8f0b6.jpg",
         "descripcion": "Jogger Levi's en color mostaza, perfecto para un estilo casual y cómodo."
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "nombre": "Camisa hawaiana hombre",
-        "tipo": "Camisa",
+        "categoria": "Camisa",
         "precio": 22,
         "imagen": "https://acdn.mitiendanube.com/stores/001/229/630/products/5630a646-47bc-475e-afb9-603edd08eaba1-2d89ae185527f25fec16038321636162-1024-1024.jpeg",
         "descripcion": "Camisa hawaiana para hombre, ideal para un look relajado y veraniego."
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "nombre": "Botitas vans",
-        "tipo": "Calzado",
+        "categoria": "Calzado",
         "precio": 25,
         "imagen": "https://i0.wp.com/leparcmenoutlet.com/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-18-at-02.01.31.jpeg?fit=1024%2C1017&ssl=1",
         "descripcion": "Botitas Vans para un estilo urbano y moderno, perfectas para cualquier ocasión."
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "nombre": "Nike AIR Jordan Retro 1",
-        "tipo": "Calzado",
+        "categoria": "Calzado",
         "precio": 45,
         "imagen": "https://d2r9epyceweg5n.cloudfront.net/stores/905/494/products/dsaasadsasasa1-6dbd8f8999b7b574e216788138791844-1024-1024.jpg",
         "descripcion": "Zapatillas Nike AIR Jordan Retro 1, un clásico reinventado para los amantes de la moda y el deporte."
