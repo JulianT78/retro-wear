@@ -11,10 +11,11 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+            <Nav.Link as={Link} to="/productos">Productos</Nav.Link>
             <NavDropdown title="Categorías" id="basic-nav-dropdown" to="/">
-              <NavDropdown.Item as={Link} to="/remeras">Remeras</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/pantalones">Pantalones</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/calzado">Calzado</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/productos/remeras">Remeras</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/productos/pantalones">Pantalones</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/productos/calzado">Calzado</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
