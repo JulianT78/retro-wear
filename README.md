@@ -1,8 +1,9 @@
-# React + Vite
+# RetroWear Clothes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenidos! Este E-Commerce de ropa es desarrollado para el curso de React JS dictado por la institución Coderhouse. Espero que sea de tu agrado! :D
 
-Currently, two official plugins are available:
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome! This E-Commers is developing for React JS course dictated by Coderhouse institution. I hope you like it! :D
+
+![GIF](https://github.com/Render78/retro-wear/assets/111009231/d910aefc-bdd6-474a-b289-78bfb49654c9)
