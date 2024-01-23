@@ -5,7 +5,8 @@
         "categoria": "remeras",
         "precio": 15,
         "imagen": "https://i.pinimg.com/236x/be/95/0e/be950ee9fbae2c0d47845fa614d7d4fe.jpg",
-        "descripcion": "Una remera cómoda y ligera de The North Face, ideal para actividades al aire libre."
+        "descripcion": "Una remera cómoda y ligera de The North Face, ideal para actividades al aire libre.",
+        "stock": 10
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "categoria": "pantalones",
         "precio": 20,
         "imagen": "https://i.pinimg.com/736x/cf/3c/7a/cf3c7af384abbbe959d02517e7f8f0b6.jpg",
-        "descripcion": "Jogger Levi's en color mostaza, perfecto para un estilo casual y cómodo."
+        "descripcion": "Jogger Levi's en color mostaza, perfecto para un estilo casual y cómodo.",
+        "stock": 10
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "categoria": "remeras",
         "precio": 22,
         "imagen": "https://i.pinimg.com/564x/1b/d1/c8/1bd1c89820f2aa2155e5e498c346be98.jpg",
-        "descripcion": "Camisa hawaiana para hombre, ideal para un look relajado y veraniego."
+        "descripcion": "Camisa hawaiana para hombre, ideal para un look relajado y veraniego.",
+        "stock": 10
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "categoria": "calzado",
         "precio": 25,
         "imagen": "https://i0.wp.com/leparcmenoutlet.com/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-18-at-02.01.31.jpeg?fit=1024%2C1017&ssl=1",
-        "descripcion": "Botitas Vans para un estilo urbano y moderno, perfectas para cualquier ocasión."
+        "descripcion": "Botitas Vans para un estilo urbano y moderno, perfectas para cualquier ocasión.",
+        "stock": 10
     },
     {
         "id": 5,
@@ -37,6 +41,7 @@
         "categoria": "calzado",
         "precio": 45,
         "imagen": "https://d2r9epyceweg5n.cloudfront.net/stores/905/494/products/dsaasadsasasa1-6dbd8f8999b7b574e216788138791844-1024-1024.jpg",
-        "descripcion": "Zapatillas Nike AIR Jordan Retro 1, un clásico reinventado para los amantes de la moda y el deporte."
+        "descripcion": "Zapatillas Nike AIR Jordan Retro 1, un clásico reinventado para los amantes de la moda y el deporte.",
+        "stock": 10
     }
 ]
