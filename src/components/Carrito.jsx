@@ -4,38 +4,63 @@ import { Link } from "react-router-dom";
 
 const Carrito = () => {
 
-  const { carrito, precioTotal, vaciarCarrito } = useContext(CartContext);
+  const { carrito, precioTotal, vaciarCarrito, disminuirCantidad, aumentarCantidad } = useContext(CartContext);
 
   const handleVaciar = () => {
     vaciarCarrito();
   }
 
+  const handleAumentarCantidad = (producto) => {
+    aumentarCantidad(producto.id);
+  };
+
+  const handleDisminuirCantidad = (producto) => {
+    disminuirCantidad(producto.id);
+  };
+
   return (
     <div className='container'>
-      <h1>Carrito</h1>
+      <h1 className='mt-3 mb-4'>Carrito</h1>
 
-      {
-        carrito.map((prod) => (
-          <div key={prod.id}>
-            <br />
-            <h3>{prod.nombre}</h3>
-            <p>Precio unitario: ${prod.precio}</p>
-            <p>Cantidad: {prod.cantidad}</p>
-            <p>Precio total: ${prod.precio * prod.cantidad}</p>
+      {carrito.map((prod) => (
+        <div key={prod.id} className='card mb-3'>
+          <div className='row g-0'>
+            <div className='col-md-3'>
+              <img src={prod.imagen} alt={prod.nombre} className='img-fluid' />
+            </div>
+            <div className='col-md-9'>
+              <div className='card-body'>
+                <h5 className='card-title'>{prod.nombre}</h5>
+                <p className='card-text'>Precio unitario: ${prod.precio}</p>
+                <p className='card-text'>Cantidad: {prod.cantidad}</p>
+                <p className='card-text'>Precio total: ${prod.precio * prod.cantidad}</p>
+                <div className='btn-group'>
+                  <button onClick={() => handleAumentarCantidad(prod)} className='btn btn-success me-2'>
+                    +
+                  </button>
+                  <button onClick={() => handleDisminuirCantidad(prod)} className='btn btn-warning'>
+                    -
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        ))
-      }
+        </div>
+      ))}
 
-      {
-        carrito.length > 0 ?
-          <div>
-            <h2>Precio total: ${precioTotal()}</h2>
-            <button onClick={handleVaciar} className='btn btn-danger'>Vaciar</button>
-            <Link to="/checkout" className='btn btn-primary ms-3'>Finalizar compra</Link>
-          </div> :
-          <h2>El carrito está vacío</h2>
-      }
-
+      {carrito.length > 0 ? (
+        <div>
+          <h2>Precio total: ${precioTotal()}</h2>
+          <button onClick={handleVaciar} className='btn btn-danger me-2'>
+            Vaciar Carrito
+          </button>
+          <Link to='/checkout' className='btn btn-primary'>
+            Finalizar Compra
+          </Link>
+        </div>
+      ) : (
+        <h2>El carrito está vacío</h2>
+      )}
     </div>
   )
 }

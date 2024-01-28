@@ -23,6 +23,26 @@ export const CartProvider = ({ children }) => {
         setCarrito(nuevoCarrito);
     }
 
+    const aumentarCantidad = (itemId) => {
+        const nuevoCarrito = carrito.map(producto => {
+            if (producto.id === itemId) {
+                return { ...producto, cantidad: producto.cantidad + 1 };
+            }
+            return producto;
+        });
+        setCarrito(nuevoCarrito);
+    }
+
+    const disminuirCantidad = (itemId) => {
+        const nuevoCarrito = carrito.map(producto => {
+            if (producto.id === itemId && producto.cantidad > 1) {
+                return { ...producto, cantidad: producto.cantidad - 1 };
+            }
+            return producto;
+        });
+        setCarrito(nuevoCarrito);
+    }
+
     const cantidadCarrito = () => {
         return carrito.reduce((acc, prod) => acc + prod.cantidad, 0);
     }
@@ -45,7 +65,9 @@ export const CartProvider = ({ children }) => {
             agregarAlCarrito,
             cantidadCarrito,
             precioTotal,
-            vaciarCarrito
+            vaciarCarrito,
+            disminuirCantidad,
+            aumentarCantidad
         }}>
             {children}
         </CartContext.Provider>

@@ -18,7 +18,7 @@ const ItemDetail = ({ item }) => {
         cantidad > 1 && setCantidad(cantidad - 1);
     }
 
-    
+
 
     return (
         <Card className='container' style={{ maxWidth: '400px', margin: '20px auto', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)', borderRadius: '10px' }}>
@@ -29,7 +29,7 @@ const ItemDetail = ({ item }) => {
                 <Card.Text className="categoria" style={{ fontStyle: 'italic', color: 'gray' }}>{item.categoria}</Card.Text>
                 <Card.Text className="precio" style={{ fontSize: '1.2em', color: 'green', fontWeight: 'bold' }}>${item.precio}</Card.Text>
             </Card.Body>
-            <ItemCount cantidad={cantidad} handleSumar={handleSumar} handleRestar={handleRestar} handleAgregar={() => {agregarAlCarrito(item, cantidad)}} />
+            <ItemCount cantidad={cantidad} handleSumar={handleSumar} handleRestar={handleRestar} handleAgregar={() => { agregarAlCarrito(item, cantidad) }} />
         </Card>
     )
 }
