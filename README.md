@@ -1,9 +1,9 @@
 # RetroWear Clothes
 
-Bienvenidos! Este E-Commerce de ropa está siendo desarrollado para el curso de React JS, dictado por la institución Coderhouse. Espero que sea de tu agrado! :D
+Bienvenidos a RetroWear! Un E-Commerce desarrollado para la venta de ropa vintage, casual y urbana. Contamos con variados productos entre remeras, pantalones y calzado. Puedes solicitar y comprar tantos productos como quieras. No encuentras un producto que te guste o tienes alguna sugerencia? No dudes en comunicarte con nosotros desde la sección Contacto! Estamos al tanto de todas los pedidos y sugerencias.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+En la sección productos tienes todos elementos en venta, así también en la parte de categoría, donde podrás filtrar según el tipo de producto que sea de tu agrado. Podrás agregar al carrito cualquier producto que quieras. Te olvidaste de sumar o restar la cantidad de un producto en específico? No importa! Desde el mismo carrito podrás elegir la cantidad de unidades que desees comprar de cualquier producto.
 
-Welcome! This E-Commerce is being developed for React JS course, dictated by Coderhouse institution. I hope you like it! :D
+Espero que la aplicación sea de su agrado! Nuevamente, si tienes alguna duda o sugerencia, no dudes en hacernosla saber desde la sección Contacto! :D
 
 ![GIF](https://github.com/Render78/retro-wear/assets/111009231/d910aefc-bdd6-474a-b289-78bfb49654c9)
