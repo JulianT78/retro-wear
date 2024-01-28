@@ -6,4 +6,4 @@ En la sección productos tienes todos elementos en venta, así también en la pa
 
 Espero que la aplicación sea de su agrado! Nuevamente, si tienes alguna duda o sugerencia, no dudes en hacernosla saber desde la sección Contacto! :D
 
-![GIF](https://github.com/Render78/retro-wear/assets/111009231/d910aefc-bdd6-474a-b289-78bfb49654c9)
+![2024-01-28-15-09-16](https://github.com/Render78/retro-wear/assets/111009231/3dfd38e8-9f66-421f-840a-ce94c58d81f6)
