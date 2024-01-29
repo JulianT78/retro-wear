@@ -18,8 +18,8 @@ const NavBar = () => {
               <NavDropdown.Item as={Link} to="/productos/pantalones">Pantalones</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/productos/calzado">Calzado</NavDropdown.Item>
             </NavDropdown>
-            <CartWidget />
           </Nav>
+          <CartWidget />
         </Navbar.Collapse>
       </Container>
     </Navbar>
